@@ -3,6 +3,9 @@
   width: 150px;
   padding: 10px;
   outline: none;
+  color: #43485b;
+  font-family: "Funnel Display", sans-serif;
+  background-color: #fff;
 }
 
 .button {
@@ -11,8 +14,12 @@
   padding: 10px;
   background-color: #fff;
   transition: all 200ms;
+  color: #43485b;
+  font-family: "Funnel Display", sans-serif;
+  cursor: pointer;
 }
 
 .button:hover {
-  background-color: #a8a8a8;
+  background-color: #43485b;
+  color: #fff;
 }

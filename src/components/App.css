@@ -1,17 +1,22 @@
 .App {
   text-align: center;
   flex-direction: column;
-  padding: 32px;
+  padding: 20px;
 
   border: 1px solid #ccc;
-  box-shadow: 10px 10px 2px 3px rgb(155, 151, 145);
-  background-color: rgb(76, 184, 235);
+  box-shadow: 3px 3px 2px 3px rgb(155, 151, 145);
+  background-color: #9cbbe9;
   border-radius: 24px;
   max-width: 300px;
-  width: 300px;
+  width: 250px;
   height: 400px;
-  margin-right: 32px;
-  margin-left: 32px;
+}
+
+@media (min-width: 768px) {
+  .App {
+    padding: 32px;
+    width: 300px;
+  }
 }
 
 .start {

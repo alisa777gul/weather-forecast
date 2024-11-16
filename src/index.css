@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: #43485b;
   background-color: #242424;
 
   font-synthesis: none;
@@ -31,8 +31,8 @@ body {
   align-items: center; /* Центрируем по вертикали */
   min-width: 320px;
   min-height: 100vh;
-  background-color: #ffffff;
-  color: rgba(255, 255, 255, 0.87);
+  background-color: #d5ffdb;
+  color: #43485b;
 }
 
 h1 {

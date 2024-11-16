@@ -1,9 +1,11 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import SearchBar from "./SearchBar/SearchBar";
 import Info from "./Info/Info";
 
 import "./App.css";
 import getWeather from "../js/api-weather";
+import Loader from "./Loader/Loader";
 
 function App() {
   // eslint-disable-next-line no-unused-vars
@@ -78,7 +80,7 @@ function App() {
       {weather === null && !loading && !city && (
         <div className="start">Let’s begin search 🔎</div>
       )}
-      {loading && <p className="try">Loading...Please wait</p>}
+      {loading && <Loader />}
       {error && (
         <p className="error">
           Failed to load weather data for current location.
