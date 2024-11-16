@@ -1,0 +1,19 @@
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+.temp {
+  margin: 0;
+  font-size: 36px;
+}
+
+.descr {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.wind {
+  font-size: 10px;
+}
