@@ -31,8 +31,7 @@ body {
   align-items: center; /* Центрируем по вертикали */
   min-width: 320px;
   min-height: 100vh;
-  background-color: #d5ffdb;
-  color: #43485b;
+  background-color: #87ceeb;
 }
 
 h1 {

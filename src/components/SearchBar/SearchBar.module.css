@@ -8,10 +8,17 @@
   background-color: #fff;
 }
 
+.form {
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
+}
+
 .button {
   border: none;
   outline: none;
   padding: 10px;
+
   background-color: #fff;
   transition: all 200ms;
   color: #43485b;
