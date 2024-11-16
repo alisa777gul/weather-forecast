@@ -22,8 +22,9 @@ export default function SearchBar({ onSubmit }) {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={style.form}>
         <input
+          className={style.input}
           type="text"
           value={query}
           autoFocus
@@ -32,7 +33,9 @@ export default function SearchBar({ onSubmit }) {
           placeholder="Enter city..."
           onChange={handleChange}
         />
-        <button type="submit">Find</button>
+        <button className={style.button} type="submit">
+          Find
+        </button>
       </form>
     </>
   );
