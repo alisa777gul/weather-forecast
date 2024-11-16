@@ -2,7 +2,7 @@
   width: 200px;
   height: 40px;
   background: radial-gradient(circle 25px at top right, #ffd738 40%, #0000),
-    #87ceeb;
+    transparent;
 
   overflow: hidden;
 }
