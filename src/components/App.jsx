@@ -6,6 +6,7 @@ import "./App.css";
 import getWeather from "../js/api-weather";
 
 function App() {
+  // eslint-disable-next-line no-unused-vars
   const [location, setLocation] = useState(null);
   const [city, setCity] = useState("");
   const [error, setError] = useState(null);
@@ -39,6 +40,7 @@ function App() {
         );
         setWeather(weatherData);
         setLoading(false);
+        // eslint-disable-next-line no-unused-vars
       } catch (err) {
         setLoading(false);
 
@@ -72,7 +74,10 @@ function App() {
 
   return (
     <div className="App">
-      <SearchBar onSubmit={handleSubmit} />
+      <SearchBar onSubmit={handleSubmit} />{" "}
+      {weather === null && !loading && !city && (
+        <div className="start">Let’s begin search 🔎</div>
+      )}
       {loading && <p>Loading...Please wait</p>}
       {error && (
         <p className="error">
