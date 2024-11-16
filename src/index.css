@@ -32,6 +32,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: #87ceeb;
+  background-image: url(./assets/wood.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 h1 {

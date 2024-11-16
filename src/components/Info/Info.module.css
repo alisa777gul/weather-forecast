@@ -51,3 +51,14 @@
   display: flex;
   flex-direction: column;
 }
+.photo {
+  width: 70px; /* Увеличиваем размер иконки */
+  height: 70px;
+  margin: 20px auto; /* Центрируем изображение */
+  border-radius: 50%; /* Круглая форма для изображения */
+  margin-bottom: 0;
+  border: 2px solid #fff; /* Белая обводка */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для выделения */
+  background-color: #8f8c8c; /* Белый фон для контраста */
+  object-fit: cover; /* Обрезка изображения, чтобы оно соответствовало размерам */
+}
