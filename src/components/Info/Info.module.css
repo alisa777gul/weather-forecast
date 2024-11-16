@@ -1,7 +1,15 @@
 .name {
   font-weight: 700;
   font-size: 24px;
+  margin: 0;
+  margin-top: 12px;
+}
+
+.container {
   margin-top: 36px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  height: 300px;
 }
 
 .temp {
@@ -16,4 +24,6 @@
 
 .wind {
   font-size: 10px;
+  margin: 0;
+  margin-bottom: 12px;
 }

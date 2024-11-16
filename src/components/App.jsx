@@ -78,7 +78,7 @@ function App() {
       {weather === null && !loading && !city && (
         <div className="start">Let’s begin search 🔎</div>
       )}
-      {loading && <p>Loading...Please wait</p>}
+      {loading && <p className="try">Loading...Please wait</p>}
       {error && (
         <p className="error">
           Failed to load weather data for current location.

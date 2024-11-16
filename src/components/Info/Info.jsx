@@ -6,7 +6,7 @@ export default function Info({ weather }) {
   const { name, main, weather: weatherDetails, wind } = weather;
 
   return (
-    <div>
+    <div className={style.container}>
       <h2 className={style.name}>{name}</h2>
       <p className={style.temp}> {Math.round(main.temp)}°C</p>
       <img
